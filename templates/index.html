@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+{% load i18n %}
+
+{% trans 'Salom' %}
+<a href="{% url 'set-language' 'uz' %}">UZ</a>
+<a href="{% url 'set-language' 'en' %}">EN</a>
+</body>
+</html>
